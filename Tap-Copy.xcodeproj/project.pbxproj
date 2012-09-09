@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D7D2FAB15EE5AF60034D81F /* RZLNewItemCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7D2FAA15EE5AF60034D81F /* RZLNewItemCtrl.m */; };
+		5D84FA6115D7E51A00F88217 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D84FA6015D7E51A00F88217 /* UIKit.framework */; };
+		5D84FA6315D7E51A00F88217 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D84FA6215D7E51A00F88217 /* Foundation.framework */; };
+		5D84FA6515D7E51A00F88217 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D84FA6415D7E51A00F88217 /* CoreGraphics.framework */; };
+		5D84FA6B15D7E51A00F88217 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D84FA6915D7E51A00F88217 /* InfoPlist.strings */; };
+		5D84FA6D15D7E51A00F88217 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D84FA6C15D7E51A00F88217 /* main.m */; };
+		5D84FA7115D7E51A00F88217 /* RZLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D84FA7015D7E51A00F88217 /* RZLAppDelegate.m */; };
+		5D84FA7415D7E51A00F88217 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D84FA7215D7E51A00F88217 /* MainStoryboard.storyboard */; };
+		5D84FA7715D7E51A00F88217 /* RZLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D84FA7615D7E51A00F88217 /* RZLViewController.m */; };
+		5D84FA7E15D7E82A00F88217 /* RZLp1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5D84FA7D15D7E82A00F88217 /* RZLp1.plist */; };
+		5DB2DDCF15F0EE230093E659 /* copy_big.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DB2DDCE15F0EE230093E659 /* copy_big.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D7D2FA915EE5AF60034D81F /* RZLNewItemCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZLNewItemCtrl.h; sourceTree = "<group>"; };
+		5D7D2FAA15EE5AF60034D81F /* RZLNewItemCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZLNewItemCtrl.m; sourceTree = "<group>"; };
+		5D84FA5C15D7E51A00F88217 /* Tap-Copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tap-Copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D84FA6015D7E51A00F88217 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5D84FA6215D7E51A00F88217 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5D84FA6415D7E51A00F88217 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5D84FA6815D7E51A00F88217 /* Tap-Copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tap-Copy-Info.plist"; sourceTree = "<group>"; };
+		5D84FA6A15D7E51A00F88217 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5D84FA6C15D7E51A00F88217 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D84FA6E15D7E51A00F88217 /* Tap-Copy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tap-Copy-Prefix.pch"; sourceTree = "<group>"; };
+		5D84FA6F15D7E51A00F88217 /* RZLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZLAppDelegate.h; sourceTree = "<group>"; };
+		5D84FA7015D7E51A00F88217 /* RZLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZLAppDelegate.m; sourceTree = "<group>"; };
+		5D84FA7315D7E51A00F88217 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5D84FA7515D7E51A00F88217 /* RZLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZLViewController.h; sourceTree = "<group>"; };
+		5D84FA7615D7E51A00F88217 /* RZLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZLViewController.m; sourceTree = "<group>"; };
+		5D84FA7D15D7E82A00F88217 /* RZLp1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RZLp1.plist; sourceTree = "<group>"; };
+		5DB2DDCE15F0EE230093E659 /* copy_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = copy_big.png; path = ../copy_big.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D84FA5915D7E51A00F88217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D84FA6115D7E51A00F88217 /* UIKit.framework in Frameworks */,
+				5D84FA6315D7E51A00F88217 /* Foundation.framework in Frameworks */,
+				5D84FA6515D7E51A00F88217 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D84FA5115D7E51A00F88217 = {
+			isa = PBXGroup;
+			children = (
+				5D84FA6615D7E51A00F88217 /* Tap-Copy */,
+				5D84FA5F15D7E51A00F88217 /* Frameworks */,
+				5D84FA5D15D7E51A00F88217 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D84FA5D15D7E51A00F88217 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D84FA5C15D7E51A00F88217 /* Tap-Copy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D84FA5F15D7E51A00F88217 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D84FA6015D7E51A00F88217 /* UIKit.framework */,
+				5D84FA6215D7E51A00F88217 /* Foundation.framework */,
+				5D84FA6415D7E51A00F88217 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D84FA6615D7E51A00F88217 /* Tap-Copy */ = {
+			isa = PBXGroup;
+			children = (
+				5D84FA6F15D7E51A00F88217 /* RZLAppDelegate.h */,
+				5D84FA7015D7E51A00F88217 /* RZLAppDelegate.m */,
+				5D84FA7215D7E51A00F88217 /* MainStoryboard.storyboard */,
+				5D84FA7515D7E51A00F88217 /* RZLViewController.h */,
+				5D84FA7615D7E51A00F88217 /* RZLViewController.m */,
+				5D7D2FA915EE5AF60034D81F /* RZLNewItemCtrl.h */,
+				5D7D2FAA15EE5AF60034D81F /* RZLNewItemCtrl.m */,
+				5D84FA6715D7E51A00F88217 /* Supporting Files */,
+			);
+			path = "Tap-Copy";
+			sourceTree = "<group>";
+		};
+		5D84FA6715D7E51A00F88217 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DB2DDCE15F0EE230093E659 /* copy_big.png */,
+				5D84FA7D15D7E82A00F88217 /* RZLp1.plist */,
+				5D84FA6815D7E51A00F88217 /* Tap-Copy-Info.plist */,
+				5D84FA6915D7E51A00F88217 /* InfoPlist.strings */,
+				5D84FA6C15D7E51A00F88217 /* main.m */,
+				5D84FA6E15D7E51A00F88217 /* Tap-Copy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D84FA5B15D7E51A00F88217 /* Tap-Copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D84FA7A15D7E51A00F88217 /* Build configuration list for PBXNativeTarget "Tap-Copy" */;
+			buildPhases = (
+				5D84FA5815D7E51A00F88217 /* Sources */,
+				5D84FA5915D7E51A00F88217 /* Frameworks */,
+				5D84FA5A15D7E51A00F88217 /* Resources */,
+				5DB2DDC115F0EC750093E659 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tap-Copy";
+			productName = "Tap-Copy";
+			productReference = 5D84FA5C15D7E51A00F88217 /* Tap-Copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D84FA5315D7E51A00F88217 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RZL;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 5D84FA5615D7E51A00F88217 /* Build configuration list for PBXProject "Tap-Copy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5D84FA5115D7E51A00F88217;
+			productRefGroup = 5D84FA5D15D7E51A00F88217 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D84FA5B15D7E51A00F88217 /* Tap-Copy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D84FA5A15D7E51A00F88217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D84FA6B15D7E51A00F88217 /* InfoPlist.strings in Resources */,
+				5D84FA7415D7E51A00F88217 /* MainStoryboard.storyboard in Resources */,
+				5D84FA7E15D7E82A00F88217 /* RZLp1.plist in Resources */,
+				5DB2DDCF15F0EE230093E659 /* copy_big.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5DB2DDC115F0EC750093E659 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ] || [ \"${PLATFORM_NAME}\" == \"ipados\" ]; then\n/Applications/Xcode.app/Contents/Developer/iphoneentitlements/gen_entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D84FA5815D7E51A00F88217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D84FA6D15D7E51A00F88217 /* main.m in Sources */,
+				5D84FA7115D7E51A00F88217 /* RZLAppDelegate.m in Sources */,
+				5D84FA7715D7E51A00F88217 /* RZLViewController.m in Sources */,
+				5D7D2FAB15EE5AF60034D81F /* RZLNewItemCtrl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D84FA6915D7E51A00F88217 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D84FA6A15D7E51A00F88217 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5D84FA7215D7E51A00F88217 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D84FA7315D7E51A00F88217 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D84FA7815D7E51A00F88217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5D84FA7915D7E51A00F88217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D84FA7B15D7E51A00F88217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tap-Copy/Tap-Copy-Prefix.pch";
+				INFOPLIST_FILE = "Tap-Copy/Tap-Copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5D84FA7C15D7E51A00F88217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tap-Copy/Tap-Copy-Prefix.pch";
+				INFOPLIST_FILE = "Tap-Copy/Tap-Copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D84FA5615D7E51A00F88217 /* Build configuration list for PBXProject "Tap-Copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D84FA7815D7E51A00F88217 /* Debug */,
+				5D84FA7915D7E51A00F88217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D84FA7A15D7E51A00F88217 /* Build configuration list for PBXNativeTarget "Tap-Copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D84FA7B15D7E51A00F88217 /* Debug */,
+				5D84FA7C15D7E51A00F88217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D84FA5315D7E51A00F88217 /* Project object */;
+}
